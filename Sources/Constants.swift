@@ -77,28 +77,28 @@ public struct NDT7WebSocketConstants {
         public static let headerProtocolValue = "net.measurementlab.ndt.v7"
 
         /// Download Path.
-        public static var downloadPath = "/ndt/v7/download"
+        public static let downloadPath = "/ndt/v7/download"
 
         /// Upload Path.
-        public static var uploadPath = "/ndt/v7/upload"
+        public static let uploadPath = "/ndt/v7/upload"
 
         /// downloadTimeout is the time in seconds after which the download must stop.
-        public static var downloadTimeout: TimeInterval = 30
+        public static let downloadTimeout: TimeInterval = 30
 
         /// uploadTimeout is the time in seconds after which the upload must stop.
-        public static var uploadTimeout: TimeInterval = 10
+        public static let uploadTimeout: TimeInterval = 10
 
         /// ioTimeout is the timeout in seconds for I/O operations.
         public static let ioTimeout: TimeInterval = 7
 
         /// updateInterval is the interval between client side upload measurements.
-        public static var updateInterval: TimeInterval = 0.25
+        public static let updateInterval: TimeInterval = 0.25
 
         /// bulkMessageSize is the size of uploaded messages
-        public static var bulkMessageSize = 1 << 13
+        public static let bulkMessageSize = 1 << 13
 
         /// maxConcurrentMessages is the max concurrent messages for upload
-        public static var maxConcurrentMessages: UInt = 100
+        public static let maxConcurrentMessages: UInt = 100
 
         /// uploadRequestDelay is delay for upload messages
         public static let uploadRequestDelay: Double = Double(maxConcurrentMessages) * Double(bulkMessageSize) / (4 * 125000) / 100

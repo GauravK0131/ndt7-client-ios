@@ -71,10 +71,10 @@ public struct NDT7Timeouts {
     public let ioTimeout: TimeInterval
 
     /// Define the max among of time used for a download test before to force to finish.
-    public let downloadTimeout: TimeInterval
+    public var downloadTimeout: TimeInterval
 
     /// Define the max among of time used for a upload test before to force to finish.
-    public let uploadTimeout: TimeInterval
+    public var uploadTimeout: TimeInterval
 
     /// Initialization.
     public init(measurement: TimeInterval = NDT7WebSocketConstants.Request.updateInterval,

@@ -131,7 +131,6 @@
 				49BE5B52224EA90800DB7BDF /* Main.storyboard */,
 				49BE5B55224EA90900DB7BDF /* Assets.xcassets */,
 				49BE5B57224EA90900DB7BDF /* LaunchScreen.storyboard */,
-				49BE5B5A224EA90900DB7BDF /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -153,6 +152,7 @@
 		88413CC12369034000EE061A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49BE5B5A224EA90900DB7BDF /* Info.plist */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

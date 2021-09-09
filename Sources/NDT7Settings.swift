@@ -13,7 +13,7 @@ import Foundation
 public struct NDT7Settings {
 
     /// Timeouts
-    public let timeout: NDT7Timeouts
+    public var timeout: NDT7Timeouts
 
     /// Skip TLS certificate verification.
     public let skipTLSCertificateVerification: Bool
